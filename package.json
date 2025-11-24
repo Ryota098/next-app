@@ -15,10 +15,6 @@
     "fix:prettier": "prettier --write .",
     "format": "npm run fix"
   },
-  "engines": {
-    "node": "24.11.0",
-    "npm": "11.4.2"
-  },
   "dependencies": {
     "@chakra-ui/react": "^3.28.1",
     "@emotion/react": "^11.14.0",
