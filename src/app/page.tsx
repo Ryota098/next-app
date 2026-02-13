@@ -31,7 +31,7 @@ export default function HomePage() {
         fontWeight='bold'
         color='gray.800'
       >
-        Next.js 16 + Chakra UI 3
+        Dev ブランチ
       </Text>
     </Flex>
   )
