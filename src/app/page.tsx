@@ -31,7 +31,7 @@ export default function HomePage() {
         fontWeight='bold'
         color='gray.800'
       >
-        Dev ブランチ
+        Develop ブランチ
       </Text>
     </Flex>
   )
