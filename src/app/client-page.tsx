@@ -3,12 +3,7 @@
 import { Flex, Text } from '@chakra-ui/react'
 import { useEffect } from 'react'
 
-interface ClientHomePageProps {
-  pubTestEnv: string
-  testEnv: string
-}
-
-export function ClientHomePage({ pubTestEnv, testEnv }: ClientHomePageProps) {
+export function ClientHomePage() {
   useEffect(() => {
     // 初回マウント時
     console.log('ページが表示されました')
@@ -38,9 +33,6 @@ export function ClientHomePage({ pubTestEnv, testEnv }: ClientHomePageProps) {
       >
         おっす<br />
         Main ブランチです<br />
-        環境変数は以下です<br />
-        NEXT_PUBLIC_TEST_ENV: {pubTestEnv}<br />
-        TEST_ENV: {testEnv}<br />
       </Text>
     </Flex>
   )
