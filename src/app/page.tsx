@@ -4,7 +4,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import { useEffect } from 'react'
 
 export default function HomePage() {
-  const testEnv = process.env.TEST_ENV
+  const testEnv = process.env.NEXT_PUBLIC_TEST_ENV
 
   useEffect(() => {
     // 初回マウント時
@@ -33,7 +33,9 @@ export default function HomePage() {
         fontWeight='bold'
         color='gray.800'
       >
-        おっす {testEnv}
+        おっす<br />
+        Main ブランチです<br />
+        環境変数: {testEnv || 'なし'}
       </Text>
     </Flex>
   )
